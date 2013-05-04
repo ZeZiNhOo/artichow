@@ -1,0 +1,17 @@
+{
+    "name": "zcorrecteurs/artichow",
+    "homepage": "http://www.github.com/zcorrecteurs/artichow",
+    "authors": [
+        {
+            "name": "vincent1870",
+            "email": "vincent@zcorrecteurs.fr"
+        }
+    ],
+    "require": {
+        "php": ">=5.0.0"
+    },
+    "autoload": {
+        "classmap": ["lib/"]
+    }
+}
+
