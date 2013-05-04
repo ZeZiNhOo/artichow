@@ -7,8 +7,6 @@
  *
  */
  
-require_once dirname(__FILE__)."/../Graph.class.php";
- 
 /**
  * Draw border
  *
@@ -193,6 +191,3 @@ class awBorder {
 	}
 	
 }
-
-registerClass('Border');
-?>

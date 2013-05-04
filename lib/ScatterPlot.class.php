@@ -7,8 +7,6 @@
  *
  */
 
-require_once dirname(__FILE__)."/Plot.class.php";
-
 /**
  * ScatterPlot
  *
@@ -295,6 +293,3 @@ class awScatterPlot extends awPlot implements awLegendable {
 	}
 
 }
-
-registerClass('ScatterPlot');
-?>

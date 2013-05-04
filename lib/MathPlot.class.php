@@ -7,8 +7,6 @@
  *
  */
 
-require_once dirname(__FILE__)."/Component.class.php";
-
 /**
  * A mathematic function
  *
@@ -140,8 +138,6 @@ class awMathFunction implements awLegendable {
 	}
 
 }
-
-registerClass('MathFunction');
  
 /**
  * For mathematics functions
@@ -434,6 +430,3 @@ class awMathPlot extends awComponent {
 	}
 
 }
-
-registerClass('MathPlot');
-?>

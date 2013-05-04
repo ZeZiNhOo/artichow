@@ -7,9 +7,6 @@
  *
  */
 
-require_once dirname(__FILE__)."/Plot.class.php";
- 
-
 /**
  * LinePlot
  *
@@ -382,8 +379,6 @@ class awLinePlot extends awPlot implements awLegendable {
 
 }
 
-registerClass('LinePlot');
-
 
 /**
  * Simple LinePlot
@@ -580,6 +575,3 @@ class awSimpleLinePlot extends awPlot implements awLegendable {
 	}
 
 }
-
-registerClass('SimpleLinePlot');
-?>
